@@ -1,0 +1,17 @@
+{
+  "name": "@beplus/cli",
+  "git": {
+    "requireBranch": "main",
+    "commitMessage": "beplus CLI release v${version}",
+    "tagName": "v${version}"
+  },
+  "github": {
+    "release": true,
+    "releaseName": "v${version}",
+    "assets": [
+      ".releases/*.tar.gz",
+      ".releases/*.tar.xz",
+      ".releases/SHA256SUMS"
+    ]
+  }
+}
